@@ -1,3 +1,4 @@
+
 /*!
  * Project : simply-countdown
  * File : simplyCountdown
@@ -10,6 +11,7 @@
  *  - Nathan Smith <NathanS@harvest.org>
  */
 /*global window, document*/
+
 (function (exports) {
     'use strict';
 
