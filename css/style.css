@@ -321,6 +321,7 @@ form label {
   width: 100%;
   margin-bottom: 3em;
 }
+
 #fh5co-header-subscribe #email {
   font-size: 16px;
   background: white;
@@ -328,12 +329,14 @@ form label {
   margin-right: -5px;
   width: 400px;
 }
+
 @media screen and (max-width: 768px) {
   #fh5co-header-subscribe #email {
     width: 100% !important;
     text-align: center;
   }
 }
+
 #fh5co-header-subscribe button {
   margin-top: .3em;
   padding: 1.26em !important;
@@ -345,6 +348,7 @@ form label {
   border-top-left-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
 }
+
 @media screen and (max-width: 768px) {
   #fh5co-header-subscribe button {
     width: 100%;
@@ -542,9 +546,9 @@ form label {
 }
 
 .btn-primary {
-  background: #FA4659;
+  background: #FA1414;
   color: #fff;
-  border: 2px solid #FA4659;
+  border: 2px solid #FA1414;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
