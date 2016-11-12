@@ -154,11 +154,13 @@ h1, h2, h3, h4, h5, h6, figure {
   right: 0;
   background: rgba(0, 0, 0, 0.5);
 }
+
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     height: 950px;
   }
 }
+
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
   height: 900px;
@@ -166,6 +168,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   padding-top: 20px;
 }
+
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-t,
   .fh5co-cover .display-tc {
@@ -177,6 +180,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
 }
+
 .fh5co-social-icons li {
   margin: 0;
   padding: 0;
@@ -186,6 +190,7 @@ h1, h2, h3, h4, h5, h6, figure {
   zoom: 1;
   *display: inline;
 }
+
 .fh5co-social-icons li a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -195,9 +200,11 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-left: 10px;
   padding-right: 10px;
 }
+
 .fh5co-social-icons li a i {
   font-size: 20px;
 }
+
 .fh5co-social-icons li a:hover, .fh5co-social-icons li a:focus {
   color: #fff;
 }
@@ -211,6 +218,7 @@ form label {
   display: table-cell !important;
   vertical-align: middle;
 }
+
 #fh5co-header .display-tc h1, #fh5co-header .display-tc h2,
 .fh5co-cover .display-tc h1,
 .fh5co-cover .display-tc h2 {
@@ -218,6 +226,7 @@ form label {
   padding: 0;
   color: white;
 }
+
 #fh5co-header .display-tc h1,
 .fh5co-cover .display-tc h1 {
   margin-bottom: 20px;
@@ -226,30 +235,35 @@ form label {
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 300;
 }
+
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
   .fh5co-cover .display-tc h1 {
     font-size: 22px;
   }
 }
+
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h1,
   .fh5co-cover .display-tc h1 {
     font-size: 22px;
   }
 }
+
 #fh5co-header .display-tc h2,
 .fh5co-cover .display-tc h2 {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 40px;
 }
+
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h2,
   .fh5co-cover .display-tc h2 {
     font-size: 16px;
   }
 }
+
 #fh5co-header .display-tc .btn,
 .fh5co-cover .display-tc .btn {
   padding: 15px 20px;
@@ -259,17 +273,25 @@ form label {
   font-size: 14px;
   text-transform: uppercase;
 }
+
 #fh5co-header .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
-  background: #FA4659 !important;
+  background: #ed061f !important;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
 }
+
+/*
+#FA4659
+*/
+
+
 #fh5co-header .display-tc p,
 .fh5co-cover .display-tc p {
   color: rgba(255, 255, 255, 0.7);
 }
+
 #fh5co-header .display-tc .fh5co-social-icons li,
 .fh5co-cover .display-tc .fh5co-social-icons li {
   margin: 0;
