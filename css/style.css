@@ -6,11 +6,13 @@
   font-weight: normal;
   font-style: normal;
 }
+
 /* =======================================================
 *
 * 	Template Style 
 *
 * ======================================================= */
+
 body {
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 400;
@@ -29,10 +31,12 @@ body {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+
 .offcanvas #page {
   overflow: hidden;
   position: absolute;
 }
+
 .offcanvas #page:after {
   -webkit-transition: 2s;
   -o-transition: 2s;
@@ -53,6 +57,7 @@ a {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+
 a:hover, a:active, a:focus {
   color: #FA4659;
   outline: none;
@@ -94,11 +99,13 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 40px 0;
   z-index: 1001;
 }
+
 @media screen and (max-width: 768px) {
   .fh5co-nav {
     padding: 20px 0;
   }
 }
+
 .fh5co-nav #fh5co-logo {
   font-size: 20px;
   margin: 20px 0 0 0;
@@ -108,12 +115,14 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: bold;
   text-transform: uppercase;
 }
+
 .fh5co-nav a {
   padding: 5px 10px;
   color: #fff;
   position: relative;
   z-index: 1;
 }
+
 .fh5co-nav a:before, .fh5co-nav a:after {
   position: absolute;
   top: -6px;
