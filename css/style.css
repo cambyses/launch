@@ -133,6 +133,14 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 50px;
   z-index: -1;
 }
+
+/*
+ rgb(250, 20, 20)
+rgba(250, 70, 89, 0.2)
+
+*/
+
+
 .fh5co-nav a:after {
   top: -9px;
   left: -10px;
