@@ -21,8 +21,6 @@ $brand-bg-color: $brand-white;
 $input-border-focus:  $brand-primary !default;
 $form-group-margin-bottom:       30px !default;
 
-
-
 // Mixin
 @mixin translateX($translatex) {
 	-moz-transform: translateX($translatex);
@@ -31,6 +29,7 @@ $form-group-margin-bottom:       30px !default;
 	-o-transform: translateX($translatex);
 	transform: translateX($translatex);
 }
+
 @mixin transition($transition) {
     -moz-transition:    all $transition ease;
     -o-transition:      all $transition ease;
@@ -38,6 +37,7 @@ $form-group-margin-bottom:       30px !default;
     -ms-transition: 		all $transition ease;
     transition:         all $transition ease;
 }
+
 @mixin inline-block() {
 	display:-moz-inline-stack;
 	display:inline-block;
@@ -51,6 +51,7 @@ $form-group-margin-bottom:       30px !default;
       -ms-border-radius: $radius;
           border-radius: $radius;
 }
+
 @mixin flex() {
 	display: -webkit-box;      
   	display: -moz-box;         
@@ -58,6 +59,7 @@ $form-group-margin-bottom:       30px !default;
   	display: -webkit-flex;     
   	display: flex;             
 }
+
 @mixin flexwrap() {
 	flex-wrap: wrap;
 	-webkit-flex-wrap: wrap; 
