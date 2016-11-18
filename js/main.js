@@ -43,7 +43,6 @@
 		}	
 	};
 
-
 	var contentWayPoint = function() {
 		var i = 0;
 		$('.animate-box').waypoint( function( direction ) {
@@ -107,12 +106,10 @@
 	
 	};
 
-
 	// Loading page
 	var loaderPage = function() {
 		$(".fh5co-loader").fadeOut("slow");
 	};
-
 
 	var counterWayPoint = function() {
 		if ($('#fh5co-counter').length > 0 ) {
@@ -126,9 +123,6 @@
 		}
 	};
 
-
-	
-	
 	$(function(){
 		contentWayPoint();
 		goToTop();
@@ -136,7 +130,5 @@
 		counterWayPoint();
 		parallax();
 	});
-
-
 
 }());
